@@ -112,7 +112,15 @@ console.log(imprimirArreglo(1, "Hola", 2, "Mundo"));
 // Mundo
 ```
  */
-
+/* 
+function imprimirArreglo(first, second, third, fourth) {
+  console.log(first);
+  console.log(second);
+  console.log(third);
+  console.log(fourth);
+}
+imprimirArreglo(1, "Hola", 2, "Mundo");
+ */
 //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
 /* 
 ## 5. Número de Likes
@@ -138,6 +146,7 @@ console.log(likes(120800)); // "120K"
 console.log(likes(25222444)); // "25M"
 ```
  */
+
 //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
 /* ## 6. FizzBuzz
 

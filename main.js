@@ -134,9 +134,9 @@ Por ejemplo:
 - 7’456,345 se convierte en 7M.
 
 Si el número es menor a 1000 se debe devolver el mismo número como un string.
-
+,
 ```javascript
-// escribe tu respuesta acá
+// escribe tu respuesta acá:
 
 // código de prueba
 console.log(likes(983)); // "983"

@@ -146,7 +146,7 @@ console.log(likes(120800)); // "120K"
 console.log(likes(25222444)); // "25M"
 ```
 */
-
+/* 
 function likes(num) {
   if (num >= 1000 && num < 1000000) {
     let like = Math.floor(num / 1000);
@@ -163,7 +163,7 @@ console.log(likes(1900)); // "1K"
 console.log(likes(54000)); // "54K"
 console.log(likes(120800)); // "120K"
 console.log(likes(25222444)); // "25M"
-
+ */
 //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
 /* ## 6. FizzBuzz
 
@@ -183,7 +183,25 @@ console.log(fizzBuzz(20)); // "buzz"
 console.log(fizzBuzz(30)); // "fizzbuzz"
 console.log(fizzBuzz(8)); // 8
 ```
- */
+*/
+
+function fizzBuzz(num) {
+  if (num % 15 == 0) {
+    return "fizzbuzz";
+  } else if (num % 5 == 0) {
+    return "buzz";
+  } else if (num % 3 == 0) {
+    return "fizz";
+  } else {
+    return num;
+  }
+}
+
+console.log(fizzBuzz(6)); // "fizz"
+console.log(fizzBuzz(20)); // "buzz"
+console.log(fizzBuzz(30)); // "fizzbuzz"
+console.log(fizzBuzz(8)); // 8
+
 //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
 /* ## 7. Contar rango de números
 
@@ -573,4 +591,4 @@ console.log(distancia("sol", "tol")); // 1
 console.log(distancia("carro", "correr")); // 3
 ```
  */
-//  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
+//  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  (

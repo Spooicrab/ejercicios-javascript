@@ -185,7 +185,7 @@ console.log(fizzBuzz(8)); // 8
 ```
 */
 
-function fizzBuzz(num) {
+/* function fizzBuzz(num) {
   if (num % 15 == 0) {
     return "fizzbuzz";
   } else if (num % 5 == 0) {
@@ -200,7 +200,7 @@ function fizzBuzz(num) {
 console.log(fizzBuzz(6)); // "fizz"
 console.log(fizzBuzz(20)); // "buzz"
 console.log(fizzBuzz(30)); // "fizzbuzz"
-console.log(fizzBuzz(8)); // 8
+console.log(fizzBuzz(8)); // 8 */
 
 //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
 /* ## 7. Contar rango de números

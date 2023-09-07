@@ -220,8 +220,15 @@ console.log(contarRango(5, 6)); // 0
  */
 
 function contarRango(num1, num2) {
+
+
+
   for (let i = num1; i < num2; i++) {
-    return num2 - i;
+
+     return num2 -i;
+
+
+
   }
 }
 console.log(contarRango(1, 9)); // 7
